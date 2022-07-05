@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+.container{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.content{
+    display: flex;
+}
+
+.card{
+    position: relative;
+    margin: 12px;
+}
+
+.card h2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.txt{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.445);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 181px;
+}
+
+.txt p{
+    display: none;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    padding: 10px 0 10px 0;
+    transform:  translateY(-50%) translateX(20%);
+}
+
+.card:hover > .txt {
+    display: block;
+    transition: 1s;
+}
+
+.txt:hover > p{
+    display: block;
+}

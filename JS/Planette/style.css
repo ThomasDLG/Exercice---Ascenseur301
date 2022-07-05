@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 24px;
+  transition: 0.5s;
+}
+
+h1.black {
+  color: black;
+  transition: 0.5s;
+}
+
+#jours {
+  background-color: white;
+  transition: 1s;
+}
+
+#jours.on {
+  background-color: black;
+  transition: 1s;
+}
+
+#planet {
+  width: 300px;
+  height: 300px;
+  margin: 64px auto;
+  background-color: orangered;
+  border-radius: 300px;
+  box-shadow: 0 0 30px orange;
+  transition: 1s;
+}
+
+#planet.nuit {
+  width: 300px;
+  height: 300px;
+  margin: 64px auto;
+  background-color: white;
+  border-radius: 300px;
+  box-shadow: 0 0 30px #f1f1f1f1;
+  transition: 1s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0 24px;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+.switch a {
+  color: grey;
+}
+
+.switch {
+  border: solid 2px grey;
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.day a {
+  color: white;
+}
+
+.day {
+  background-color: orangered;
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.day:hover {
+  box-shadow: 0 0 30px orangered;
+  transition: 0.3s;
+}
+
+.night a {
+  color: black;
+}
+
+.night {
+  background-color: #f1f1f1;
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.night:hover {
+  box-shadow: 0 0 30px white;
+  transition: 0.3s;
+}

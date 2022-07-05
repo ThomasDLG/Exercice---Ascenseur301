@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    background-color: #f1f1f1;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+.container{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    overflow: hidden;
+}
+
+.title{
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.anime{
+    display: flex;
+    margin: 0 0 5px 5px;
+}
+
+.name{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 3px;
+}
+
+.episode{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.banner{
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: orange;
+    padding: 3px;
+    transform: rotate(-45deg);
+    right: -43px;
+    bottom: 20px;
+}

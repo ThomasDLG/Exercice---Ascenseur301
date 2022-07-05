@@ -1,0 +1,97 @@
+#sprite1 {
+  display: block;
+  background-image: url("../img/sprite.png");
+  background-position: 0px 0px;
+  width: 500px;
+  height: 124px;
+  transition: 0.3s;
+}
+#sprite1:hover {
+  background-position: 0px -124px;
+  transition: 0.3s;
+}
+
+.sprite {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.sprite a {
+  margin: 0 12px;
+}
+
+.icon {
+  display: block;
+  background-image: url("../img/sprite2.png");
+  width: 60px;
+  height: 54px;
+  transition: 0.3s;
+}
+
+#facebook {
+  background-position: 0px 0px;
+}
+#facebook:hover {
+  background-position: 0px -54px;
+}
+#linkedin {
+  background-position: -80px 0px;
+}
+#linkedin:hover {
+  background-position: -80px -54px;
+}
+#pinterest {
+  background-position: -160px 0px;
+}
+#pinterest:hover {
+  background-position: -160px -54px;
+}
+#rss {
+  background-position: -245px 0px;
+}
+#rss:hover {
+  background-position: -245px -54px;
+}
+#share {
+  background-position: -325px 0px;
+}
+#share:hover {
+  background-position: -325px -54px;
+}
+#twitter {
+  background-position: -410px 0px;
+}
+#twitter:hover {
+  background-position: -410px -54px;
+}
+#youtube {
+  background-position: -485px 0px;
+}
+#youtube:hover {
+  background-position: -485px -54px;
+}
+
+.nature {
+  display: block;
+  margin-top: 32px;
+  background-image: url("../img/nature.jpg");
+  background-position: 0px 0px;
+  width: 250px;
+  height: 500px;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  50% {
+    background-position: 100% 0px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}

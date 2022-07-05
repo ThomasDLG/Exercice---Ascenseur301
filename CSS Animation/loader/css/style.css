@@ -1,0 +1,70 @@
+.cercle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: transparent;
+  border-top: 15px solid #0d6efd;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  animation: loader 1.5s infinite cubic-bezier(1, 0.03, 0.46, 0.98);
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loadlayer {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100vw;
+  height: auto;
+  animation: loading 300ms 1 forwards;
+  animation-delay: 3s;
+  opacity: 1;
+}
+
+@keyframes loading {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.loader {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: transparent;
+  border-top: 15px solid #0d6efd;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  animation: load 1.5s infinite ease-in-out;
+}
+
+@keyframes load {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

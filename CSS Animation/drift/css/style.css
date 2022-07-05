@@ -1,0 +1,21 @@
+.drift {
+  position: absolute;
+  top: 200px;
+  width: 200px;
+  animation: drift 1.8s linear;
+}
+
+@keyframes drift {
+  0% {
+    left: 0;
+    top: 200px;
+  }
+  50% {
+    top: 350px;
+  }
+  100% {
+    left: 100%;
+    top: 200px;
+    transform: scaleX(-1);
+  }
+}

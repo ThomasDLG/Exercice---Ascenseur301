@@ -1,0 +1,35 @@
+.section {
+  display: flex;
+  width: 800px;
+}
+
+.page {
+  margin-right: 16px;
+}
+
+.phone {
+  margin-left: 16px;
+}
+
+.page h2 {
+  text-align: center;
+  border-top: 2px solid rgb(189, 143, 59);
+  border-bottom: 2px solid rgb(189, 143, 59);
+  padding: 16px 0;
+}
+
+.page ul li {
+  list-style: none;
+}
+
+.phone {
+  position: relative;
+}
+
+.phone video {
+  position: absolute;
+  width: 234px;
+  height: 423px;
+  left: 15px;
+  top: 52px;
+}

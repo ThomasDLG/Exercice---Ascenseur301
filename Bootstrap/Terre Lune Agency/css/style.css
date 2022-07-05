@@ -1,0 +1,129 @@
+html,
+body{
+    font-family: 'Titilium Web' sans-serif;
+    background-color: #000000;
+    color: #7F8289;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+a{
+    color: #7F8289;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #fff;
+}
+
+.contact{
+    background-color: #26292E;
+    color: white;
+}
+
+.border-red{
+    border-left: #DE5E60 2px solid;
+    padding: 0 16px;
+}
+
+.border-red span{
+    color: #DE5E60;
+}
+
+.btn1 a{
+    background-color: #464646;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn1 a:hover{
+    background-color: #26292E;
+}
+
+.prestation h2,h3{
+    color: white;
+}
+
+.realisation{
+    background-color: #26292E;
+    color: white;
+}
+
+.realisation li{
+    list-style-type: none;
+    margin-left: -32px;
+    margin-bottom: 16px;
+}
+
+.navbar{
+    background-color: #26292E;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar a:hover{
+    color: #DE5E60;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #DE5E60 !important;
+}
+
+.carousel{
+    background-color: #000000;
+}
+
+.media{
+    background-color: #26292E;
+}
+
+.media a{
+    background-color: #000000;
+    font-size: 32px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.media a:hover{
+    background-color: #DE5E60;
+}
+
+.btn2{
+    background-color: #464646;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn2:hover{
+    background-color: #26292E;
+}
+
+textarea.form-control{
+    min-height: 300px;
+}
+
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 10px !important;
+}
+
+.arrow{
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+}
+
+.arrow i{
+    font-size: 48px;
+}

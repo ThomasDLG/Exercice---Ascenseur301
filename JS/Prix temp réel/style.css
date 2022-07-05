@@ -1,0 +1,19 @@
+* {
+  text-align: center;
+}
+
+.ligne {
+  margin: 16px 0;
+}
+
+.btn {
+  padding: 6px;
+  background-color: #f1f1f1;
+  border: #a8a8a8 1px solid;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+#quantite {
+  width: 6%;
+}

@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-image: url(https://previews.123rf.com/images/nptom/nptom1601/nptom160100050/50994182-texture-foin-closeup-en-couleur-fourrage-pour-le-b%C3%A9tail-et-la-construction.jpg);
+}
+
+.container{
+    margin: auto;
+    width: 796px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+}

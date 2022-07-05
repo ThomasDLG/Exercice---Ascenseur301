@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.view {
+  /* width: 800px; */
+  margin: 24px auto;
+  border: 2px solid black;
+}
+
+.view img {
+  width: 100%;
+}
+
+.select {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image {
+  width: 160px;
+  border: 2px solid black;
+}
+
+.image img {
+  width: 100%;
+}

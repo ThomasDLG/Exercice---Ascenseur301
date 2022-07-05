@@ -1,0 +1,14 @@
+#grandest {
+  outline: none;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+g:hover path {
+  fill: rgb(82, 124, 187);
+  transition: 0.3s;
+}
+
+a:hover path {
+  fill: #fd7e14;
+  transition: 0.3s;
+}

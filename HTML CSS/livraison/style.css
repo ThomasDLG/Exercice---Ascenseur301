@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Verdana;
+    background-color: white;
+    line-height: 120%;
+    font-size: 16px;
+    color: black;
+   cursor: url('img/pika.cur'),;
+}
+
+h1{
+    color: #126f7f;
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+h2{
+    color: #126f7f;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+p{
+    margin-bottom: 16px;
+}
+
+a{
+    color: #126f7f;
+}
+
+li{
+    list-style-type: circle;
+    margin-bottom: 16px;
+}
+
+img{
+    width: 250px;
+    padding: 4px;
+    border: 2px solid #ccc;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin: auto;
+}
+
+.txt{
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.link{
+    padding: 15px;
+    background-color: #ccc;
+    border: 4px solid #126f7f;
+    font-style: italic;
+}
+
+@media print{
+    h1,
+    h2{
+        color: black;
+    }
+    img{
+        border-color: transparent;
+    }
+    .link{
+        border: none;
+    }
+    .link a{
+        color: black;
+    }
+}
+
+/* @media screen and (orientation: portrait){
+    body{
+        background-color: red;
+    }
+} */
+
+@media screen and (max-width: 950px){
+    .container{
+        width: 100%;
+    }
+}

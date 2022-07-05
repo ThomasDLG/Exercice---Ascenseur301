@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+div {
+  margin: 24px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.plus {
+  background-color: green;
+  padding: 8px 15px;
+}
+
+.moins {
+  background-color: red;
+  padding: 8px 15px;
+}
+
+.reset {
+  background-color: blue;
+  padding: 8px 15px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+#compteur {
+  display: inline-block;
+  background-color: #f1f1f1f1;
+  border-radius: 100px;
+  padding: 10px 15px;
+}
+
+#prix {
+  display: inline-block;
+  background-color: #f1f1f1f1;
+  border-radius: 100px;
+  padding: 10px 15px;
+}
+
+#total {
+  margin: 0;
+  font-size: 24px;
+  margin-left: 12px;
+}

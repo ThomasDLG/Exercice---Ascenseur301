@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Georgia", sans-serif;
+}
+
+/* body{
+    background-image: url(https://media0.giphy.com/media/CEK6VlVkjTZ5u/giphy.gif?cid=ecf05e47e6av9wxkof0up71mqsok1jfo6f67e0hxwwwtfzzf&rid=giphy.gif&ct=g);
+    background-position: 25% 3%;
+    background-repeat: no-repeat;
+    background-size: 100px;
+} */
+
+.container{
+    margin: auto;
+    width: 768px;
+}
+
+.container img{
+    width: 100%;
+}
+
+h1{
+    font-size: 55px;
+    margin-bottom: 32px;
+}
+
+.subtitle{
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+
+.author{
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.date{
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 32px;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+p{
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+.fond{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.i1{
+    background-image: url(img/1.jpg);
+}
+.i2{
+    background-image: url(img/2.jpg);
+}
+.i3{
+    background-image: url(img/3.jpg);
+}
+.i4{
+    background-image: url(img/4.jpg);
+}
+.i5{
+    background-image: url(img/5.jpg);
+}

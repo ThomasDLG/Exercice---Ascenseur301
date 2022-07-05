@@ -1,0 +1,5 @@
+body {
+  background-image: url(../img/image.jpg) !important;
+  background: no-repeat;
+  background-size: cover;
+}

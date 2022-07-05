@@ -1,0 +1,46 @@
+.fa-bell {
+  margin-right: 12px;
+  vertical-align: baseline;
+  transform-origin: top;
+  animation: ring 1.4s infinite ease-in-out;
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  45% {
+    transform: rotate(0deg);
+  }
+
+  65% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-10deg);
+  }
+  80% {
+    transform: rotate(10deg);
+  }
+
+  90% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

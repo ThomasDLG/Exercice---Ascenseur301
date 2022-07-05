@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    background-color: #f1f1f1;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+h2{
+    color: red;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform:  translateY(-50%) translateX(50%);
+}
+
+.img{
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+}
+
+.img:hover > .txt{
+    background-color: rgba(255, 255, 0, 0.5);
+    transition: 0.3s;
+}
+
+.txt{
+    z-index: 10;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(255, 166, 0, 0.5);
+    padding: 12px;
+}

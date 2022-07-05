@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.content {
+  width: 900px;
+  margin: auto;
+}
+
+.bar {
+  width: 100%;
+  height: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #f1f1f1;
+}
+
+.progress {
+  width: 1%;
+  height: 100%;
+  background-color: red;
+}
+
+h1 {
+  margin: 32px 0;
+}
+
+.btn {
+  display: none;
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  bottom: 64px;
+  right: 64px;
+}
+
+.btn a {
+  position: absolute;
+  text-decoration: none;
+  width: 64px;
+  height: 64px;
+  color: white;
+  background-color: black;
+}
+
+.active {
+  display: block;
+}

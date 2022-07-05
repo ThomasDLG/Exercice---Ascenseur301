@@ -1,0 +1,425 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+}
+/* FIN DU RESET  */
+
+/*!
+* SAMPLE FILES
+* THOMAS
+* CDUI 2021-2022
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Permanent+Marker&display=swap");
+
+:root {
+  /* COLOR */
+  --css-blue: #0d6efd;
+  --css-red: #dc3545;
+  --css-green: #198754;
+  --css-yellow: #ffc107;
+  --css-orange: #fd7e14;
+  --css-purple: #6f42c1;
+  --css-black: #212529;
+  --css-white: #fff;
+  --css-light: #f8f9fa;
+  --css-dark: #343a40;
+  /* HOVER */
+  --css-blue-hover: #0b5dd8;
+  --css-red-hover: #c91426;
+  --css-green-hover: #157749;
+  --css-yellow-hover: #ebb000;
+  --css-orange-hover: #e46b08;
+  --css-purple-hover: #6929df;
+  --css-light-hover: #e7e7e7;
+  --css-dark-hover: #2a2e31;
+  /* BUTTON MARGIN, PADDING, RADIUS */
+  --css-btn-margin: 8px 16px 8px 16px;
+  --css-btn-padding: 12px 24px;
+  --css-btn-radius: 30px;
+  /* FONTS */
+  --css-font-family: "Inter" sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 12px 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  margin: var(--css-btn-margin);
+  padding: var(--css-btn-padding);
+  background-color: var(--css-light);
+  color: var(--css-black);
+  border: var(--css-dark) 1px solid;
+  border-radius: var(--css-btn-radius);
+  font-family: var(--css-font-family);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--css-light-hover);
+  transition: 0.3s;
+}
+
+.btn-blue {
+  display: inline-block;
+  text-decoration: none;
+  margin: var(--css-btn-margin);
+  padding: var(--css-btn-padding);
+  background-color: var(--css-blue);
+  color: var(--css-white);
+  border-radius: var(--css-btn-radius);
+  font-family: var(--css-font-family);
+  transition: 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: var(--css-blue-hover);
+  transition: 0.3s;
+}
+
+.btn-red {
+  display: inline-block;
+  text-decoration: none;
+  margin: var(--css-btn-margin);
+  padding: var(--css-btn-padding);
+  background-color: var(--css-red);
+  color: var(--css-white);
+  border-radius: var(--css-btn-radius);
+  font-family: var(--css-font-family);
+  transition: 0.3s;
+}
+
+.btn-red:hover {
+  background-color: var(--css-red-hover);
+  transition: 0.3s;
+}
+
+.btn-green {
+  display: inline-block;
+  text-decoration: none;
+  margin: var(--css-btn-margin);
+  padding: var(--css-btn-padding);
+  background-color: var(--css-green);
+  color: var(--css-white);
+  border-radius: var(--css-btn-radius);
+  font-family: var(--css-font-family);
+  transition: 0.3s;
+}
+
+.btn-green:hover {
+  background-color: var(--css-green-hover);
+  transition: 0.3s;
+}
+
+.btn-yellow {
+  display: inline-block;
+  text-decoration: none;
+  margin: var(--css-btn-margin);
+  padding: var(--css-btn-padding);
+  background-color: var(--css-yellow);
+  color: var(--css-black);
+  border-radius: var(--css-btn-radius);
+  font-family: var(--css-font-family);
+  transition: 0.3s;
+}
+
+.btn-yellow:hover {
+  background-color: var(--css-yellow-hover);
+  transition: 0.3s;
+}
+
+.btn-orange {
+  display: inline-block;
+  text-decoration: none;
+  margin: var(--css-btn-margin);
+  padding: var(--css-btn-padding);
+  background-color: var(--css-orange);
+  color: var(--css-white);
+  border-radius: var(--css-btn-radius);
+  font-family: var(--css-font-family);
+  transition: 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: var(--css-orange-hover);
+  transition: 0.3s;
+}
+
+.btn-purple {
+  display: inline-block;
+  text-decoration: none;
+  margin: var(--css-btn-margin);
+  padding: var(--css-btn-padding);
+  background-color: var(--css-purple);
+  color: var(--css-white);
+  border-radius: var(--css-btn-radius);
+  font-family: var(--css-font-family);
+  transition: 0.3s;
+}
+
+.btn-purple:hover {
+  background-color: var(--css-purple-hover);
+  transition: 0.3s;
+}
+
+.btn-special {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+  margin: var(--css-btn-margin);
+  padding: var(--css-btn-padding);
+  background-color: var(--css-light);
+  color: var(--css-black);
+  border: var(--css-dark) 1px solid;
+  border-radius: var(--css-btn-radius);
+  font-family: var(--css-font-family);
+  transition: 0.3s;
+  z-index: 1;
+}
+
+/* .btn-special span {
+  z-index: 10;
+} */
+
+.btn-special::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -150px;
+  width: 105%;
+  height: 105%;
+  background-color: var(--css-dark);
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.btn-special:hover {
+  color: var(--css-light);
+}
+
+.btn-special:hover::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 105%;
+  height: 105%;
+  background-color: var(--css-dark);
+  transition: 0.5s;
+}
+
+.link {
+  text-decoration: none;
+  padding: 4px;
+  color: var(--css-blue);
+  transition: 0.3s;
+}
+
+.link:hover {
+  background-color: var(--css-blue);
+  color: var(--css-white);
+  transition: 0.3s;
+}
+
+input,
+textarea {
+  margin: var(--css-btn-margin);
+  padding: var(--css-btn-padding);
+  background-color: var(--css-light);
+  border: var(--css-light-hover) 2px solid;
+  border-radius: var(--css-btn-radius);
+}
+
+/* PAGE CONTENT */
+
+/* NAVBAR */
+
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: var(--css-light);
+  padding-top: 10px;
+  box-shadow: 0px 2px 18px 3px rgba(0, 0, 0, 0.3);
+}
+
+.navbar nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+/* CONTAINER */
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}

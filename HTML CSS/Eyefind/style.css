@@ -1,0 +1,169 @@
+.search {
+  background-color: #4e92c1;
+  padding: 24px 0;
+  border-bottom: 5px solid #f7c507;
+}
+
+.search i {
+  font-size: 42px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.search h1 img {
+  width: 250px;
+}
+
+.bord {
+  border-right: 2px solid white;
+  height: 50px;
+}
+
+.col-8 img {
+  max-width: 32px;
+}
+
+.bar {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+}
+
+.col-2 a {
+  width: 100%;
+  background-color: #0a798b;
+  border: none;
+}
+
+.menu {
+  background-color: #f1f1f1;
+  border-bottom: 2px solid #4e92c1;
+  margin-bottom: 64px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu li {
+  list-style: none;
+  text-align: center;
+  border-right: #5cf4ff6e 2px solid;
+}
+
+.menu li a {
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.menu li a:hover {
+  color: #4e92c1;
+  transition: 0.3s;
+}
+
+li:last-child {
+  border: none;
+}
+
+.content {
+  background-color: #f1f1f1;
+  border-top: 2px solid #4e92c1;
+  height: 100%;
+}
+
+.article {
+  background-color: white;
+  margin-top: 12px;
+  position: relative;
+}
+
+.article img {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.lire {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 20;
+  padding: 12px;
+}
+
+.gradient::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 10;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.651) 55%,
+    rgba(0, 212, 255, 0) 100%
+  );
+}
+
+.gradient {
+  position: relative;
+}
+
+.feed {
+  background-color: white;
+  margin-top: 12px;
+  border: #4e92c1 3px solid;
+}
+
+.feed p {
+  margin: 0;
+  text-align: center;
+  color: white;
+  background-color: #4e92c1;
+}
+
+.msg {
+  background-color: white;
+  margin-top: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 12px;
+}
+
+.msg a {
+  text-decoration: none;
+  color: #4e92c1;
+}
+
+.lien {
+  text-decoration: none;
+  color: #4e92c1;
+}
+
+.footer {
+  background-color: #4e92c1;
+  border-top: 5px solid #f7c507;
+  text-align: center;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
